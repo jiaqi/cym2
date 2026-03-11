@@ -17,14 +17,12 @@
   <inceptionYear>2005</inceptionYear>
   <scm>
     <connection>
-      scm:git:git://github.com/cyclopsgroup/cym2/flatsite
+      scm:git:git://github.com/jiaqi/cym2/flatsite
     </connection>
     <developerConnection>
-      scm:git:git://github.com/cyclopsgroup/cym2/flatsite
+      scm:git:git://github.com/jiaqi/cym2/flatsite
     </developerConnection>
-    <url>
-      https://github.com/cyclopsgroup/cym2/flatsite
-    </url>
+    <url>https://github.com/jiaqi/cym2/flatsite</url>
   </scm>
   <dependencies>
     <dependency>
@@ -90,7 +88,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
-        <version>3.2</version>
+        <version>${mvn.version}</version>
         <configuration>
           <goalPrefix>flatsite</goalPrefix>
           <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
