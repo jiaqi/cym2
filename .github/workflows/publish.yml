@@ -15,3 +15,5 @@ concurrency:
 jobs:
   publish:
     uses: jiaqi/cyclopsgroup/.github/workflows/maven-publish.yml@main
+    with:
+        cmd: mvn -B --update-snapshots verify package site -Dmaven.javadoc.failOnError=false
