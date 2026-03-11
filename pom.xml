@@ -121,6 +121,6 @@
   </distributionManagement>
   <properties>
     <aws.sdk.version>1.11.651</aws.sdk.version>
-    <mvn.version>3.6.2</mvn.version>
+    <mvn.version>3.9.0</mvn.version>
   </properties>
 </project>
