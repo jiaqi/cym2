@@ -1,14 +1,17 @@
-name: verify
+name: publish
 
 on:
   push:
+    branches:
+      - main
     paths-ignore:
       - "**/*.md"
+      - "src/test/**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.sha }}
   cancel-in-progress: true
 
 jobs:
-  build_and_verify:
-    uses: jiaqi/cyclopsgroup/.github/workflows/maven-verify.yml@main
+  publish:
+    uses: jiaqi/cyclopsgroup/.github/workflows/maven-publish.yml@main

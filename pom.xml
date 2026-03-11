@@ -92,6 +92,18 @@
       </extension>
     </extensions>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/cym2</url>
+    </snapshotRepository>
+    <repository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/cym2</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <aws.sdk.version>1.11.651</aws.sdk.version>
     <mvn.version>3.6.2</mvn.version>
