@@ -120,7 +120,7 @@
     </repository>
   </distributionManagement>
   <properties>
-    <aws.sdk.version>1.11.651</aws.sdk.version>
+    <aws.sdk.version>1.12.797</aws.sdk.version>
     <mvn.version>3.9.0</mvn.version>
   </properties>
 </project>
