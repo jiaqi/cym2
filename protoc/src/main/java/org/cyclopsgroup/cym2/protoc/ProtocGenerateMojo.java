@@ -40,8 +40,9 @@ public class ProtocGenerateMojo extends AbstractMojo {
       getLog().info("No proto file is found in " + inputDir + ", exit.");
       return;
     }
-    List<String> args = new ArrayList<String>(
-        Arrays.asList(protocExecutable, "--proto_path=" + inputDir.getAbsolutePath()));
+    List<String> args =
+        new ArrayList<String>(
+            Arrays.asList(protocExecutable, "--proto_path=" + inputDir.getAbsolutePath()));
 
     try {
       File outputDir = new File(outputDirectory);
